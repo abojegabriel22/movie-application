@@ -1,0 +1,136 @@
+/* BODY  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+:root{
+    --bg-color: #000;
+    --text-color: #fff;
+    --red-color: #E50914;
+    --gray-color: #302f2f;
+    --blue-color: #0071eb;
+
+}
+
+body{
+    background: var(--gray-color) !important;
+    color: var(--text-color) !important;
+}
+
+.myLight{
+    /* background: rgb(253, 223, 223); */
+    background: var(--text-color);
+    color: var(--bg-color);
+    font-weight: 900;
+}
+.weath{
+    position: absolute;
+    top: 47%;
+    left: 2%;
+    /* border: 2px solid red; */
+    width: 6%;
+}
+
+/* HEADER  */
+header{
+    position: relative;
+    width: 100%;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    background-color: var(--bg-color);
+
+}
+
+.imge{
+    height: 60%;
+    width: 25%;
+    margin-left: 2%;
+    float: left;
+    /* border: 2px solid brown; */
+}
+
+.img{
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-family: Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    color: var(--red-color);
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.btn{
+    margin-bottom: 9px;
+    padding-top: 7px;
+    padding-bottom: 4px;
+}
+
+.btnHeader{
+    width: 40%;
+    float: right;
+    margin-right: 3%;
+    padding-left: 30px;
+    margin-top: 4px;
+}
+
+.btnHeader > h4{
+    width: 43%;
+    margin-top: 20px;
+    margin-left: 39px;
+    font-size: 12px;
+    font-weight: 100;
+    padding-left: 16px;
+    float: left;
+    color: var(--text-color);
+}
+
+.btnHeader1 > button{
+    height: 35px;
+    width: 25%;
+    margin-top: 10px;
+    border-color: var(--red-color);
+    font-size: 16px;
+    border-radius: 2px;
+    background-color: var(--red-color);
+    color: var(--text-color);
+    margin-left: 10px;
+    float: right;
+}
+.sbtn{
+    width: 20% !important;
+    border-color: var(--text-color) !important;
+    background-color: transparent !important; 
+}
+/* login header design */
+#loginWelcomeSpan{
+    margin-top: 10px;
+    font-size: 18px;
+    border-radius: 2px;
+    color: var(--text-color);
+    float: left;
+    border-left: 5px solid rgb(224, 64, 64);
+    /* border: 1px solid; */
+}
+#btnHeaderIn{
+    width: auto;
+    margin-right: 2%;
+    float: right;
+    /* border: 1px solid blue; */
+}
+#signOut{
+    float: right;
+    scale: 0.7;
+    height: auto;
+}
+#btnHeaderIn h4{
+    font-size: 20px;
+     margin-left: 0;
+     margin-top: 6px;
+     margin-right: 5px;
+}
+.fasSize{
+    font-size: 20px;
+}

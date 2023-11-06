@@ -1,0 +1,355 @@
+.bg-dark{
+    background-color: black !important;
+}
+
+/* TV SECTION  */
+.tv{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    border-top: 8px solid gray;
+    border-bottom: 8px solid gray;
+    
+}
+.tvwriteup{
+    width: 50%;
+    margin-top: 5%;
+    /* border: 2px solid red; */
+    padding-left: 100px;
+}
+.tvwriteup > h1{
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.tvwriteup > h2{
+    font-weight: 300;
+    font-size: 25px;
+    margin-top: 10px;
+    line-height: 35px;
+}
+
+.tvwatch{
+    width: 550px;
+    height: 370px;
+    /* border: 2px solid blue; */
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+.tvwatch > img{
+    width: 100%;
+    height: 100%;
+}
+.fitvideo{
+    width: 100%;
+    height: 54%;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 21%;
+    /* left: 1%; */
+}
+.fitvideo > video{
+    width: 100%;
+    height: 100%;
+}
+
+/* SECOND SECTION  */
+.tv1{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    /* border-top: 8px solid gray; */
+    border-bottom: 8px solid gray;
+    
+}
+.secondvideo{
+    width: 50%;
+    height: 200px;
+    border: 2px solid blue;
+}
+
+.secondwriteup{
+    margin-left: 5%;
+}
+.secondwriteup > h1{
+    width: 70%;
+    /* border: 2px solid red; */
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: 1px;
+    /* padding-top: 1px; */
+    line-height: 70px;
+}
+.secondwriteup > h3{
+    width: 70%;
+    /* border: 2px solid green; */
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 10px;
+    line-height: 35px;
+}
+
+.tvwatch2{
+    width: 50%;
+    height: 370px;
+    margin-left: 15%;
+    /* border: 2px solid blue; */
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+.tvwatch2 > img{
+    width: 100%;
+    height: 100%;
+}
+.rectangle{
+    width: 312px;
+    height: 100px;
+    border: 2px solid gray;
+    background-color: black;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 20px;
+    left: 18%;
+}
+.box{
+    width: 60px;
+    height: 70px;
+    /* border: 2px solid blue; */
+    margin-left: 10px;
+    margin-top: 12px;
+}
+.box > img{
+    width: 100%;
+    height: 100%;
+}
+.small{
+    font-size: 15px;
+    position: absolute;
+    top: 27px;
+    left: 30%;
+}
+.loading{
+    font-size: 13px;
+    bottom: 12%;
+    left: 30%;
+    position: absolute;
+    color: var(--blue-color);
+
+}
+.playbutton{
+    width: 40px;
+    height: 50px;
+    background-image: url(https://i.ibb.co/vJzzqYr/download-icon.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    /* border: 2px solid red; */
+    top: 23px;
+    right: 10px;
+}
+ /* THIRD SECTION  */
+.left{
+    width: 100%;
+    height: 450px;
+    border-bottom: 8px solid gray;
+}
+.leftText{
+    width: 30%;
+    height: 300px;
+    /* border: 2px solid blue; */
+    padding: 80px;
+    margin-left: 18%;
+    
+}
+.leftText > h1{
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: 1px;
+    line-height: 70px;
+}
+.leftText > p{
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: 35px;
+}
+
+.cartoon{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    border-bottom: 8px solid gray;
+}
+
+.thirdwriteup{
+    width: 60%;
+    height: 230px;
+    margin-left: 1%;
+    margin-top: -30px;
+    /* border: 2px solid pink; */
+}
+.thirdwriteup > h1{
+    width: 70%;
+    /* border: 2px solid red; */
+    font-weight: 700;
+    font-size: 50px;
+    /* letter-spacing: 1px; */
+    /* padding-top: 1px; */
+    line-height: 60px;
+}
+ /* FOURTH SECTION  */
+.thirdwriteup > h3{
+    width: 75%;
+    /* border: 2px solid green; */
+    font-weight: 400;
+    font-size: 23px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+.tvwatch3{
+    width: 45%;
+    height: 370px;
+    margin-left: 10%;
+    /* border: 2px solid blue; */
+    /* position: relative; */
+    text-align: center;
+    justify-content: center;
+}
+.tvwatch3 > img{
+    width: 100%;
+    height: 100%;
+}
+
+.faq{
+    padding: 5%;
+    /* margin-bottom: 5%; */
+    /* border-bottom: 8px solid gray; */
+}
+.faq > h1{
+    font-weight: 800;
+    font-size: 50px;
+    text-transform: capitalize;
+    text-align: center;
+}
+/* ACCORDION  */
+.accordion{
+    margin: 25px auto;
+    width: 85%;
+    background-color: rgb(49, 46, 46);
+}
+.text-gray{
+    background-color: rgb(49, 46, 46);
+    color: white !important;
+    align-items: start;
+}
+.text-white{
+    text-align: left;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+}
+
+.accordion-item{
+    background-color: rgb(49, 46, 46);
+    color: white;
+    margin-top: 5px;
+    border-bottom: 13px solid black;
+}
+.h2Accord{
+    /* align-items: center; */
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+}
+
+.content > p{
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    color: #b9a7a7;
+}
+label{
+    margin-bottom: 10px;
+}
+.down{
+    margin-top: 50px;
+    /* position: relative; */
+
+}
+.down > h3{
+    font-weight: 400;
+    font-size: 23px;
+    margin-top: 10px;
+    line-height: 30px;
+    text-align: center;
+}
+.last{
+    margin: 20px auto;
+    width: 40%;
+    height: 65px;
+    /* border: 2px solid red; */
+    position: relative;
+    margin-bottom: 50px;
+
+}
+.email{
+    position: absolute;
+    width: 64%;
+    height: 100%;
+
+
+}
+.btn2{
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    left: 351px;
+}
+.btn2 > button{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    background-color: var(--red-color);
+    font-size: 25px;
+
+    font-weight: bold;
+
+}
+.btn2A{
+    color: white;
+}
+.btn2B{
+    color: black;
+}
+.btn2 > button:hover{
+    background-color: rgb(153, 27, 27);
+    cursor: pointer;
+}
+.email > input{
+    width: 100%;
+    height: 90%;
+    margin-top: 3px;
+    border-radius: 5px;
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+    padding-left: 15px;
+    font-size: 18px;
+    background: transparent;
+   
+    border: 1px solid gray;
+
+}
+.myColor1{
+    color: white;
+}
+.myColor{
+    color: black;
+}
